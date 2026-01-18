@@ -1,7 +1,7 @@
-export default function RegisterPager() {
+export default function LoginPage() {
   return (
     <div>
-      <h1> This is page component 44</h1>
+      <h1> This is page component </h1>
     </div>
   );
 }

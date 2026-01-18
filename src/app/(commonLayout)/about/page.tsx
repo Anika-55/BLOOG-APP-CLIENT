@@ -1,11 +1,15 @@
+"use client";
 
+export default function AboutPage() {
+  //* For simulating load time
+  // await new Promise((resolve) => setTimeout(resolve, 4000));
 
-export default function About ()  {
-    return (
-        <div>
-            <h1>this is about page</h1>
-        </div>
-    );
-};
+  //* For simulating error
+  // throw new Error("Something went wrong");
 
-
+  return (
+    <div>
+      <h1> This is about page component </h1>
+    </div>
+  );
+}

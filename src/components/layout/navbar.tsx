@@ -59,7 +59,7 @@ const Navbar = ({
     alt: "logo",
     title: "Next Blog",
   },
-  menu = [
+ menu = [
     { title: "Home", url: "/" },
     {
       title: "Blogs",
@@ -68,6 +68,10 @@ const Navbar = ({
     {
       title: "About",
       url: "/about",
+    },
+    {
+      title: "Dashboard",
+      url: "/dashboard",
     },
   ],
   auth = {
